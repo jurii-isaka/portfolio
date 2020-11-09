@@ -15,9 +15,6 @@
     text-decoration: none;
     color: inherit;
    }
-
-
-
   
   #container {
     margin: 0 auto;
@@ -28,6 +25,9 @@
   body {
     font-family: garamond-premier-pro-subhead,garamond-premier-pro-display,"リュウミン R-KL","Ryumin Regular KL",RyuminPro-Regular,"游明朝","Yu Mincho","游明朝体",YuMincho,"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro",HiraMinProN-W3,"HGS明朝E","ＭＳ Ｐ明朝","MS PMincho",serif;
   }
+
+
+
   /*----------------------------------------------
 PC＋SP共通の設定   ※480px以上
 -----------------------------------------------*/
@@ -100,7 +100,7 @@ header {
     }
 .Drawer-close {
     position:absolute;
-    top:29px;
+    top:13px;
     right: 20px;
 }
 .Drawer-close img {
@@ -156,12 +156,19 @@ header {
     flex-direction: column;
 }
 .m10  {
-    margin-top: -13px ;
+    margin-top: -8px ;
 }
 .m11 {
     margin-top: -10px ;
-}
-/* works_1-6 end */
+} 
+.m9 {
+    margin-top: -4px ;
+} 
+.m8 {
+    margin-top: -6px ;
+} 
+
+/* works_1-6 end
 
 
 /* side_bar start */
@@ -193,6 +200,7 @@ article {
     opacity: 0.5;
 }
 /* side_bar end */
+
 
 /* buttun start */
 .button_1 {
@@ -333,7 +341,30 @@ footer {
     width: 282px;
     height: 190px;
   }
+
+  .works_footer {
+    margin: 30px auto 0;
+    background-color: #fefefe;
+
+    width: 100%;
+}
+.works_footer ul li {
+    display: inline-flex;
+    justify-content: center; 
+}
+.works_footer img {
+    width: 31px;
+    margin: 0 auto 0px;
+    margin: 2px 8px;
+}
+.footer_hover  img {
+    transition: 0.5s;
+}
+.footer_hover  img:hover {
+    opacity: 0.5;
+}
 /* works end */
+
 
 /* works_1-6_hover start */
 .work_hover {
@@ -366,11 +397,9 @@ footer {
     display: flex;
     align-items: center;
   }
-
   figcaption h3 {
     position: absolute;
     width: 282px;
-  
     transition-delay: .5s;
     font-size: 12px;
     color: #fefefe;
@@ -380,9 +409,6 @@ footer {
     border-left: 0.9px solid #fefefe;
     padding-left: 10px;
   }
-
-
-
   .work_hover:hover figcaption {
     width: 282px;
     opacity: 1;
@@ -409,7 +435,7 @@ min-width:1120px;
     margin:130px 0 0 360px ;
 }
 .img_inner  a {
-    filter: grayscale(2); /* モノクロにする */
+    filter: grayscale(90%); /* モノクロにする */
     transition: filter 0.8s;
 }
 .img_inner  a:hover {
@@ -469,11 +495,13 @@ min-width:1120px;
 }
 /* index_html top_works end */
 
+
 /* top page限定でスクロールしない指定 */
 .top_page{
   overflow: hidden;
 }
 /* top page限定でスクロールしない指定 */
+
 
 /* pc非表示 */
 .work_hover__sp{
@@ -483,6 +511,7 @@ min-width:1120px;
     display: none;
   }
   /* pc非表示 */
+
 
 /* contact start */
 /* .lead-form{
@@ -544,7 +573,6 @@ min-width:1120px;
     opacity: 0.4;
 } */
   /* contact end */
-
 
 
   /*----------------------------------------------
@@ -620,12 +648,6 @@ display: none;
   display: flex;
   flex-direction: column;
 }
-/* .m10  {
-  margin-top: -13px ;
-}
-.m11 {
-  margin-top: -10px ;
-} */
 .button  {
   margin: 45px auto 25px;
 }
@@ -693,7 +715,7 @@ header {
     }
 .Drawer-close {
     position:absolute;
-    top:29px;
+    top:17px;
     right: 20px;
 }
 .Drawer-close img {
@@ -764,6 +786,7 @@ header {
 } 
 /* works end */
 
+
 /* works_1-6_hover start */
 .work_hover {
   display: initial;
@@ -814,27 +837,27 @@ figcaption h3 {
       display:none;
   }
   .works_top_img img {
-      width:300px;
-      height: 220px;
+      width:280px;
+      height: 200px;
       box-shadow: none;
-      margin: 65px 5px 35px 5px;
+      margin: 45px 5px 45px 5px;
   }
   .top_name {
       margin: 0;
       width: 100%;
   }
   .top_name  h2 {
-      font-size: 35px;
+      font-size: 30px;
       letter-spacing: 0.15em;
       font-weight: 300;
-      margin-left: 80px;
+      margin-left: 50px;
   } 
   .top_name  h3 {
-      font-size: 14px;
+      font-size: 12px;
       letter-spacing: 0.19em;
       font-weight: 100;
       text-align: center;
-      margin: 5px 0 210px 73px;
+      margin: 5px 0 210px 43px;
   }
   /* top_works end */
   
@@ -862,6 +885,7 @@ figcaption h3 {
         margin-top: 60px;
       }
      /* sp_footer end */
+
 
      /* button start */
      .button_1 {
@@ -923,9 +947,6 @@ figcaption h3 {
     }
   /* button end */
 
-
-
-
 /* sp_side_bar start */
 .side_bar {
   display: none;
@@ -935,7 +956,6 @@ figcaption h3 {
   font-size: 15px;
   font-weight: 200;
   padding: 15px;
-  /* margin:0 auto; */
 }
 .sp_side_bar_inner{
   display: flex;
@@ -1004,7 +1024,6 @@ align-items: center;
   .drawer-open span:after {
     top: 8px;
   }
-
 
   /* アイコンがクリックされたら真ん中の線を透明にする */
   #drawer-check:checked ~ .drawer-open span {
