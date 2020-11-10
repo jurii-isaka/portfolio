@@ -835,9 +835,6 @@ figcaption h3 {
       display:flex;
       overflow:auto;
     }
-    .sp_scroll {
-      display: none;
-    }
   .works_top_img::-webkit-scrollbar {
       display:initial;
   }
@@ -862,7 +859,7 @@ figcaption h3 {
       letter-spacing: 0.19em;
       font-weight: 100;
       text-align: center;
-      margin: 5px 0 225px 43px;
+      margin: 5px 0 245px 43px;
   }
   /* top_works end */
   
