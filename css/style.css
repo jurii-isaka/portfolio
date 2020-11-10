@@ -588,6 +588,7 @@ sp設定(@media)  768px以下の表示設定
       border-left: 1px solid #071B07;
       margin-left: 5px;
       }
+      
 body {
     width: 100%;
     margin: 0px;
@@ -598,6 +599,7 @@ body {
 #top_container  {
       width: 100%;
       min-width:initial;
+      overflow-x: inherit;
   }
 #container {
       width: 100%;
@@ -823,7 +825,7 @@ figcaption h3 {
       width: calc(100% - 50px);
   }
   .img_inner  a {
-      filter: grayscale(2); /* モノクロにする */
+      filter: grayscale(90%); /* モノクロにする */
       transition: filter 0.8s;
   }
   .img_inner  a:hover {
@@ -840,7 +842,7 @@ figcaption h3 {
       width:280px;
       height: 200px;
       box-shadow: none;
-      margin: 45px 5px 45px 5px;
+      margin: 30px 5px 45px 5px;
   }
   .top_name {
       margin: 0;
@@ -850,14 +852,14 @@ figcaption h3 {
       font-size: 30px;
       letter-spacing: 0.15em;
       font-weight: 300;
-      margin-left: 50px;
+      margin-left: 65px;
   } 
   .top_name  h3 {
       font-size: 12px;
       letter-spacing: 0.19em;
       font-weight: 100;
       text-align: center;
-      margin: 5px 0 210px 43px;
+      margin: 5px 0 225px 43px;
   }
   /* top_works end */
   
