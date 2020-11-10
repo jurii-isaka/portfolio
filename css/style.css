@@ -836,13 +836,13 @@ figcaption h3 {
       overflow:auto;
     }
   .works_top_img::-webkit-scrollbar {
-      display:initial;
+    display: none;
   }
   .works_top_img img {
       width:280px;
       height: 200px;
       box-shadow: none;
-      margin: 30px 5px 45px 5px;
+      margin: 30px 5px 45px 15px;
   }
   .top_name {
       margin: 0;
@@ -852,7 +852,7 @@ figcaption h3 {
       font-size: 30px;
       letter-spacing: 0.15em;
       font-weight: 300;
-      margin-left: 65px;
+      margin-left: 45px;
   } 
   .top_name  h3 {
       font-size: 12px;
