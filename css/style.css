@@ -833,10 +833,10 @@ figcaption h3 {
   }
   .works_top_img {
       display:flex;
-      overflow-x:scroll;
+      overflow:auto;
     }
   .works_top_img::-webkit-scrollbar {
-      display:none;
+      display:initial;
   }
   .works_top_img img {
       width:280px;
