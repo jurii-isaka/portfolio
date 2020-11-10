@@ -617,10 +617,10 @@ body {
   display: initial;
 }
 .ex4 {
-  margin: -5px 0 0 10px;
+  margin: 0px 0 0 10px;
   font-size: 19px;
   padding: 0;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   border-left: 1px solid #071B07;
   padding: 0.5rem 1rem;
   line-height:1.8rem;
@@ -628,7 +628,7 @@ body {
 }
 .ex3 {
   font-size: 13px;
-  margin: 5px  0 15px 28px;
+  margin: 5px  0 10px 28px;
   font-weight: 100;
   line-height:1.3rem;
 }
@@ -636,7 +636,7 @@ body {
 display: none;
 }
 .ex5 {
-  margin: 0px 10px 25px 10px;
+  margin: 0px 8px 15px 8px;
   font-size: 16px;
   line-height:1.7rem;
   font-weight: 300;
@@ -963,7 +963,7 @@ figcaption h3 {
   justify-content: space-around;
   list-style: none;
   align-items: center;
-  margin: 15px auto 0;
+  margin: 6px auto 0;
 }
 .item_2 a {
 display: flex;
