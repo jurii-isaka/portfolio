@@ -835,6 +835,9 @@ figcaption h3 {
       display:flex;
       overflow:auto;
     }
+    .sp_scroll {
+      display: none;
+    }
   .works_top_img::-webkit-scrollbar {
       display:initial;
   }
