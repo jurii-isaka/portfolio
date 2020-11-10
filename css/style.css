@@ -588,7 +588,7 @@ sp設定(@media)  768px以下の表示設定
       border-left: 1px solid #071B07;
       margin-left: 5px;
       }
-      
+
 body {
     width: 100%;
     margin: 0px;
@@ -617,7 +617,7 @@ body {
   display: initial;
 }
 .ex4 {
-  margin: 0px 0 0 5x;
+  margin: -5px 0 0 10px;
   font-size: 19px;
   padding: 0;
   padding-left: 10px;
@@ -628,7 +628,7 @@ body {
 }
 .ex3 {
   font-size: 13px;
-  margin: 20px  0 10px 3px;
+  margin: 5px  0 15px 28px;
   font-weight: 100;
   line-height:1.3rem;
 }
@@ -636,7 +636,7 @@ body {
 display: none;
 }
 .ex5 {
-  margin: 2px 2px 20px 2px;
+  margin: 0px 10px 25px 10px;
   font-size: 16px;
   line-height:1.7rem;
   font-weight: 300;
@@ -875,7 +875,7 @@ figcaption h3 {
     .footer img {
         width: 31px;
         margin: 45px auto 0px;
-        margin: 2px 8px;
+        margin: 2px 12px;
     }
     footer {
         text-align: center;
@@ -883,8 +883,7 @@ figcaption h3 {
         color: #071B07;
         font-size: 10px;
         font-weight: 100;
-        padding: 12px 0;
-        margin-top: 60px;
+        padding: 10px 0 8px 0;
       }
      /* sp_footer end */
 
@@ -896,7 +895,7 @@ figcaption h3 {
   }
   .button {
       position: fixed;
-      margin: 28px auto 5px;
+      margin: 45px auto 15px;
       display: block;
       width: 230px;
       height: 54px;
@@ -964,6 +963,7 @@ figcaption h3 {
   justify-content: space-around;
   list-style: none;
   align-items: center;
+  margin: 15px auto 0;
 }
 .item_2 a {
 display: flex;
