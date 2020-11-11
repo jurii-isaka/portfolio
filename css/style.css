@@ -35,54 +35,112 @@ body {
     background-color: #fefefe;
 }
 
-
- /* loadig start */
- @import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
- 
- @mixin position-center($text-align: center) {
- position: absolute;
- top: 0;
- bottom: 0;
- left: 0;
- right: 0;
- margin: auto;
- text-align: $text-align;
- }
- 
- .loading {
- position: fixed;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
- background: #000;
- z-index: 9999;
- }
- 
- .loading-text {
- @include position-center;
- width: 100%;
- height: 100px;
- line-height: 100px;
- span {
- display: inline-block;
- margin: 0 5px;
- color: #fff;
-     font-family: 'Quattrocento Sans', sans-serif;
- @for $i from 0 through 6 {
- &:nth-child(#{$i + 1}) {
- filter: blur(0px);
- animation: blur-text 1.5s (#{$i/5})+s infinite linear alternate;
- }
- }
- }
- 
- 
- @keyframes blur-text {
- 0% {filter: blur(0px);}
- 100% {filter: blur(4px);}
- }
- /* loading end */
+/*loader START */
+.shutter {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #071B07;
+  z-index: 9999;
+  -webkit-animation: byeShutter 2.6s forwards;
+          animation: byeShutter 2.6s forwards;
+}
+.shutter::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: #fefefe;
+  width: 0;
+  height: 1px;
+  -webkit-animation: shutterOpen 2.6s forwards;
+          animation: shutterOpen 2.6s forwards;
+}
+.content {
+  -webkit-animation: contentScale 2.6s forwards;
+          animation: contentScale 2.6s forwards;
+}
+@-webkit-keyframes byeShutter {
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+  }
+}
+@keyframes byeShutter {
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    z-index: -1;
+  }
+}
+@-webkit-keyframes shutterOpen {
+  0% {
+    width: 0;
+    height: 1px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  90% {
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+  }
+}
+@keyframes shutterOpen {
+  0% {
+    width: 0;
+    height: 1px;
+  }
+  50% {
+    width: 100%;
+    height: 1px;
+  }
+  90% {
+    width: 100%;
+    height: 100%;
+  }
+  100% {
+    width: 100%;
+    height: 100%;
+  }
+}
+@-webkit-keyframes contentScale {
+  70% {
+    -webkit-transform: perspective(800px) scale(0.9) rotateX(15deg);
+            transform: perspective(800px) scale(0.9) rotateX(15deg);
+  }
+  100% {
+    -webkit-transform: perspective(800px) scale(1) rotateX(0);
+            transform: perspective(800px) scale(1) rotateX(0);
+  }
+}
+@keyframes contentScale {
+  70% {
+    -webkit-transform: perspective(800px) scale(0.9) rotateX(15deg);
+            transform: perspective(800px) scale(0.9) rotateX(15deg);
+  }
+  100% {
+    -webkit-transform: perspective(800px) scale(1) rotateX(0);
+            transform: perspective(800px) scale(1) rotateX(0);
+  }
+}
+/*  loader END  */
 
 
   /* navi start*/
@@ -1111,3 +1169,35 @@ align-items: center;
     left:0;/* メニューを画面に入れる */
   }
  
+
+
+
+/* あライ */
+@keyframes border-loading-indicator-row-1 {
+  0% {
+    border-color: rgba(0, 0, 0, 0.25);
+    border-top-color: black;
+  }
+  25% {
+    border-color: rgba(0, 0, 0, 0.25);
+    border-right-color: black;
+  }
+  50% {
+    border-color: rgba(0, 0, 0, 0.25);
+    border-bottom-color: black;
+  }
+  75% {
+    border-color: rgba(0, 0, 0, 0.25);
+    border-left-color: black;
+  }
+  100% {
+    border-color: rgba(0, 0, 0, 0.25);
+    border-top-color: black;
+  }
+}
+
+
+.border-loading-indicator.row-1 {
+  top: 25%;
+  animation: border-loading-indicator-row-1 750ms linear infinite;
+}
