@@ -757,7 +757,7 @@ header {
   padding: 9px;
   }
 .nav_inner{
-  height: 70px;
+  height: 65px;
   margin: 10px;
 }
 .nav-ul-arai {
@@ -766,7 +766,7 @@ header {
 .log img {
   width: 28px;
   height: 38px;
-  margin-left: 6px;
+  /* margin-left: 3px; */
   justify-content: flex-start;
 }
 .nav-ul-arai li a {
@@ -819,7 +819,7 @@ header {
   min-width: initial;
 }
 .img_inner {
-  margin:75px 0 0 50px ;
+  margin:75px 0 0 40px ;
   width: 100%;
   width: calc(100% - 50px);
 }
@@ -858,7 +858,7 @@ header {
   letter-spacing: 0.19em;
   font-weight: 100;
   text-align: center;
-  margin: 5px 0 260px 52px;
+  margin: 5px 0 80px 62px;
 }
 /* sp index html end */
 
@@ -896,32 +896,32 @@ header {
 .a_345px_1 {
   width:330px;
   height: 230px;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 .a_345px_2 {
   width:330px;
   height: 230px;
-  margin: 34px 0 5px 0;
+  margin: 34px 0 6px 0;
 }
 .a_345px_3 {
   width:330px;
   height: 230px;
-  margin: 40px 0 5px 0;
+  margin: 40px 0 6px 0;
 }
 .a_345px_4 {
   width:330px;
   height: 230px;
-  margin: 40px 0 5px 0;
+  margin: 40px 0 6px 0;
 }
 .a_345px_5 {
   width:330px;
   height: 230px;
-  margin: 40px 0 5px 0;
+  margin: 40px 0 6px 0;
 }
 .a_345px_6 {
   width:330px;
   height: 230px;
-  margin: 40px 0 5px 0;
+  margin: 40px 0 30px 0;
 } 
 /* works end */
 
@@ -951,37 +951,37 @@ figcaption h3 {
 /* sp works_hover end */
 
 
-/* sp  works1-6 start */
+/* sp works1-6 start */
 .ex {
   width: 100%;
   margin: 0;
-  padding: 32px 15px 0 15px;
+  padding: 32px 10px 0 10px;
 }
 .ex1 {
   display: initial;
 }
 .ex4 {
-  margin: 0px 0 0 10px;
-  font-size: 19px;
+  margin: 0 0 0 7px;
+  font-size: 18px;
   padding: 0;
   /* padding-left: 10px; */
   border-left: 1px solid #071B07;
   padding: 0.5rem 1rem;
   line-height:1.8rem;
-  font-weight: 200;
+  font-weight: 500;
 }
 .ex3 {
   font-size: 13px;
-  margin: 5px  0 10px 28px;
+  margin: 8px  0 10px 20px;
   font-weight: 100;
-  line-height:1.3rem;
+  line-height:1.1rem;
 }
 .ex2 {
   display: none;
 }
 .ex5 {
-  margin: 0px 8px 15px 8px;
-  font-size: 16px;
+  margin: 0px 2px 15px 2px;
+  font-size: 15px;
   line-height:1.7rem;
   font-weight: 300;
 }
