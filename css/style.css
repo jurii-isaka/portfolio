@@ -756,7 +756,7 @@ header {
 .global-nav ul li {
   padding: 9px;
   }
-  .nav_inner{
+.nav_inner{
   height: 70px;
   margin: 10px;
 }
@@ -766,7 +766,7 @@ header {
 .log img {
   width: 28px;
   height: 38px;
-  margin-left: 3px;
+  /* margin-left: 3px; */
   justify-content: flex-start;
 }
 .nav-ul-arai li a {
@@ -819,7 +819,7 @@ header {
   min-width: initial;
 }
 .img_inner {
-  margin:65px 0 0 50px ;
+  margin:75px 0 0 50px ;
   width: 100%;
   width: calc(100% - 50px);
 }
