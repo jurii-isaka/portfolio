@@ -2,5 +2,5 @@ $('head').append(
     '<style>body{display:none;}'
     );
     $(window).on("load", function() {
-    $('body').delay(600).fadeIn("56000");
+    $('body').fadeIn("50000");
     });

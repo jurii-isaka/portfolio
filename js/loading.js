@@ -9,5 +9,6 @@
 setTimeout(() =>{
     $('.loader').fadeOut();
     $('#container').fadeIn();
+    $('#top_container').fadeIn();
     $('header').fadeIn();
 },1300);
