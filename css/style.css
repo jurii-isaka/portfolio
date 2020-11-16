@@ -766,7 +766,7 @@ header {
 .log img {
   width: 28px;
   height: 38px;
-  /* margin-left: 3px; */
+  margin-left: 6px;
   justify-content: flex-start;
 }
 .nav-ul-arai li a {
@@ -876,9 +876,9 @@ header {
   font-size: 16px;
   font-weight: 200;
   letter-spacing: 0.17em;
-  margin: 35px  0 20px 10px;
+  margin: 35px 0 25px 7px;
   padding: 0.5rem 1rem;
-  border-left: 1px solid #071B07;
+  border-left: 0.5px solid #071B07;
 }
 .works_name p {
   display: none;
@@ -906,22 +906,22 @@ header {
 .a_345px_3 {
   width:330px;
   height: 230px;
-  margin: 34px 0 5px 0;
+  margin: 40px 0 5px 0;
 }
 .a_345px_4 {
   width:330px;
   height: 230px;
-  margin: 34px 0 5px 0;
+  margin: 40px 0 5px 0;
 }
 .a_345px_5 {
   width:330px;
   height: 230px;
-  margin: 34px 0 5px 0;
+  margin: 40px 0 5px 0;
 }
 .a_345px_6 {
   width:330px;
   height: 230px;
-  margin: 34px 0 5px 0;
+  margin: 40px 0 5px 0;
 } 
 /* works end */
 
