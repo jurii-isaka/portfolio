@@ -921,7 +921,7 @@ header {
 .a_345px_6 {
   width:330px;
   height: 230px;
-  margin: 40px 0 30px 0;
+  margin: 40px 0 6px 0;
 } 
 /* works end */
 
@@ -955,34 +955,34 @@ figcaption h3 {
 .ex {
   width: 100%;
   margin: 0;
-  padding: 32px 10px 0 10px;
+  /* padding: 20px 10px 0 10px; */
 }
 .ex1 {
   display: initial;
 }
 .ex4 {
-  margin: 0 0 0 7px;
-  font-size: 18px;
+  margin: 20px 0 0 12px;
+  font-size: 17px;
   padding: 0;
   /* padding-left: 10px; */
-  border-left: 1px solid #071B07;
+  border-left: 0.5px solid #071B07;
   padding: 0.5rem 1rem;
   line-height:1.8rem;
-  font-weight: 500;
+  font-weight: 800;
 }
 .ex3 {
   font-size: 13px;
-  margin: 8px  0 10px 20px;
+  margin: 12px 0 15px 25px;
   font-weight: 100;
-  line-height:1.1rem;
+  line-height:1.3rem;
 }
 .ex2 {
   display: none;
 }
 .ex5 {
-  margin: 0px 2px 15px 2px;
+  margin: 0px 2px 20px 2px;
   font-size: 15px;
-  line-height:1.7rem;
+  line-height:1.5rem;
   font-weight: 300;
 }
 .ex_picture {
@@ -995,7 +995,7 @@ figcaption h3 {
   flex-direction: column;
 }
 .button  {
-  margin: 45px auto 25px;
+  margin: 32px auto 30px;
 }
 /* sp  works1-6 end */
 
@@ -1011,7 +1011,7 @@ figcaption h3 {
 .footer img {
   width: 31px;
   margin: 45px auto 0px;
-  margin: 2px 12px;
+  padding: 2px 10px;
 }
 footer {
   text-align: center;
@@ -1091,8 +1091,8 @@ footer {
 }
 .sp_side_bar {
   display: initial;
-  font-size: 15px;
-  font-weight: 200;
+  font-size: 14px;
+  font-weight: 700;
   padding: 15px;
 }
 .sp_side_bar_inner{
