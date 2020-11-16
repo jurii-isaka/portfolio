@@ -761,6 +761,14 @@ sp設定(@media)  768px以下の表示設定
   border-left: 1px solid #071B07;
   margin-left: 5px;
   }
+  h1.loader {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'garamond-premier-pro-subhead', リュウミン R-KL;
+    font-size: 1em;
+    color: transparent;
+    letter-spacing: 0.4em;
+  }
 body {
   width: 100%;
   margin: 0px;
@@ -1118,6 +1126,7 @@ footer {
   transform: scale(1);
 }
 /* button end */
+
 
 /* sp_side_bar start */
 .side_bar {
