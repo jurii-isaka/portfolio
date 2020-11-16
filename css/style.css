@@ -851,14 +851,14 @@ header {
   font-size: 30px;
   letter-spacing: 0.15em;
   font-weight: 300;
-  margin-left: 55px;
+  margin-left: 70px;
 } 
 .top_name  h3 {
   font-size: 12px;
   letter-spacing: 0.19em;
   font-weight: 100;
   text-align: center;
-  margin: 5px 0 245px 52px;
+  margin: 5px 0 260px 52px;
 }
 /* sp index html end */
 
@@ -873,8 +873,8 @@ header {
   margin: 15px;
 }
 .works_name h2 {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 200;
   letter-spacing: 0.17em;
   margin: 35px  0 20px 10px;
   padding: 0.5rem 1rem;
