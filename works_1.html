@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/lazysizes.min.js"></script>
     <script src="js/loading.js"></script>
     <meta name="author" content="Jurii Isaka's portfolio">
     <meta name="description" content="UIUX Designerの井坂樹理依のポートフォリオです">
@@ -27,38 +28,42 @@
         <span>G</span>
       </h1>
     <!-- loading -->
-
+  
     <header>
-        <nav class="global-nav">
-            <div class="nav_inner">
-                <figure class="log">
-                    <a href="./index.html"><img src="img/logo_pc.png" alt="log"></a>
-                </figure>
-    
-                <ul class="nav-ul-arai">
-                 <li ><a href="./works.html" style="color:#939393">WORKS</a></li>
-
-                    <li class="drawer">
-                        <input type="checkbox" id="drawer-check" class="drawer-hidden">
-                        <a href=""><label for="drawer-check">PROFILE</label></a>
-                    
-                        <nav class="drawer-content">
-                            <a href=""><label class="Drawer-close" for="drawer-check" style="font-size:40px;">
-                              <img src="img/close_btn.svg"></label></a>
-
-                            <ul class="drawer-list">
-                                <li class="drawer-item-sidebar __padding">
-                                    <img src="img/Profile_1.png">
-                                </li>
-                            </ul>
-                        </nav>
-                    </li>
-
-                 <li><a href="mailto:neyzs2az&#64;gmail.com">CONTACT</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+        <!-- nav -->
+         <nav class="global-nav">
+             <div class="nav_inner">
+     
+                 <figure class="log">
+                     <a href="./index.html"><img src="img/logo_pc.png" alt="log"></a>
+                 </figure>
+         
+                 <ul class="nav-ul-arai">
+                     <li ><a href="./works.html">WORKS</a></li>
+                    <!-- profile -->
+                     <li class="drawer">
+                           <input type="checkbox" id="drawer-check" class="drawer-hidden">
+                         <a href=""><label for="drawer-check">PROFILE</label></a>
+     
+                         <nav class="drawer-content">
+                             <a href=""><label class="Drawer-close" for="drawer-check" style="font-size:40px;">
+                             <img src="img/close_btn.svg"></label>
+                             </a>
+     
+                             <ul class="drawer-list">
+                                 <li class="drawer-item-sidebar __padding">
+                                   <img src="img/Profile_1.png">
+                                 </li>
+                             </ul>
+                         </nav>
+                     </li>
+                    <!-- profile -->
+                     <li><a href="mailto:neyzs2az&#64;gmail.com" target="_blank" rel="noopener">CONTACT</a></li>
+                 </ul>
+             </div>
+         </nav>
+        <!-- nav -->
+       </header>
 
  <main>
     <div id="container">

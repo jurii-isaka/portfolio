@@ -59,7 +59,7 @@ header {
 }
 .img-wrap:before,
 .img-wrap:after {
-  animation: 2.5s cubic-bezier(.4, 0, .2, 1) forwards;
+  animation: 1.5s cubic-bezier(.4, 0, .2, 1) forwards;
   background: #fefefe;
   bottom: 0;
   content: '';
@@ -78,13 +78,11 @@ header {
   left: 50%;
   right: 0;
 }
-
 @keyframes img-wrap-before {
   100% {
     transform: translateY(100%);
   }
 }
-
 @keyframes img-wrap-after {
   100% {
     transform: translateY(-100%);
@@ -260,12 +258,34 @@ header {
 .works_top_img::-webkit-scrollbar {
     display:none;
   }
-.works_top_img img {
+.works_top_img img{
     width:310px;
     height: 220px;
     margin: 15px; 
     box-shadow: none;
+    opacity: 0;
   }
+ /* ふわっと表示 */
+.works_top_img img:nth-child(1),
+.works_top_img img:nth-child(2),
+.works_top_img img:nth-child(3),
+.works_top_img img:nth-child(4),
+.works_top_img img:nth-child(5),
+.works_top_img img:nth-child(6) {
+  -webkit-animation: example 1s ease 1s 1 forwards;
+  animation: example 2s ease 2s 1 forwards;
+}
+@-webkit-keyframes example {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes example {
+  100% {
+    opacity: 1;
+  }
+}
+  /* ふわっと表示 */
 .top_name {
     text-align: left;
     margin: 35px 0 185px 870px;

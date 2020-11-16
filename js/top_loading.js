@@ -11,4 +11,4 @@ setTimeout(() =>{
     $('header').fadeIn();
     $('top_footer').fadeIn();
 
-},2000);
+},1800);
