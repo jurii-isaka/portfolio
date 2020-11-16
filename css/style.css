@@ -488,7 +488,15 @@ figcaption h3 {
 }
 .ex_picture img:nth-child(1),
 .ex_picture img:nth-child(2),
-.ex_picture img:nth-child(3) {
+.ex_picture img:nth-child(3),
+.ex_picture img:nth-child(4),
+.ex_picture img:nth-child(5),
+.ex_picture img:nth-child(6),
+.ex_picture img:nth-child(7),
+.ex_picture img:nth-child(8),
+.ex_picture img:nth-child(9),
+.ex_picture img:nth-child(10),
+.ex_picture img:nth-child(11) {
 -webkit-animation: example 0s ease 0s 1 forwards;
 animation: example 0.5s ease 0.5s 1 forwards;
 }
