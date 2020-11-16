@@ -35,92 +35,61 @@ body {
 }
 
 /*loading START */
-/* .shutter {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #fff;
-  z-index: 9999;
-  -webkit-animation: byeShutter 2.5s forwards;
-          animation: byeShutter 2.5s forwards;
+  /* loading用 */
+#top_ontainer {
+  display: none;
 }
-.shutter::before {
+header {
+  display: none; 
+}
+.top_footer {
+  display: none; 
+}
+  /* loading用 */
+.img-wrap {
+  width: 100vw;/* ブラウザ全画面 */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.img-wrap:before,
+.img-wrap:after {
+  animation: 2.5s cubic-bezier(.4, 0, .2, 1) forwards;
+  background: #fefefe;
+  bottom: 0;
   content: '';
+  pointer-events: none;
   position: absolute;
   top: 0;
+  z-index: 1;
+}
+.img-wrap:before {
+  animation-name: img-wrap-before;
   left: 0;
-  bottom: 0;
-  margin: auto;
-  background-color: black;
-  width: 0;
-  height: 1px;
-  -webkit-animation: shutterOpen 2.3s forwards;
-          animation: shutterOpen 2.3s forwards;
+  right: 50%;
 }
-.content {
-  -webkit-animation: contentScale 2.3s forwards;
-          animation: contentScale 2.3s forwards;
+.img-wrap:after {
+  animation-name: img-wrap-after;
+  left: 50%;
+  right: 0;
 }
-@-webkit-keyframes byeShutter {
-  70% {
-    opacity: 1;
-  }
+
+@keyframes img-wrap-before {
   100% {
-    opacity: 0;
-    display: none;
-    z-index: -1;
-  }
-}
-@keyframes byeShutter {
-  70% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    display: none;
-    z-index: -1;
-  }
-}
-@-webkit-keyframes shutterOpen {
-  0% {
-    opacity: 1;
-    width: 0;
-    height: 1px;
-  } */
-  /* 50% {
-    opacity: 0.8;
-    width: 100%;
-    height: 1px;
-  }
-  65% {
-    opacity: 0;
-    width: 100%;
-    height: 1px;
-  }
-  90% {
-    opacity: 0;
-    width: 100%;
-    height: 1px;
-  }
-  100% {
-    opacity: 0;
-    width: 100%;
-    height: 1px;
+    transform: translateY(100%);
   }
 }
 
-@keyframes contentScale {
-  70% {
-    -webkit-transform: perspective(800px) scale(0.9) rotateX(15deg);
-            transform: perspective(800px) scale(0.9) rotateX(15deg);
-  }
+@keyframes img-wrap-after {
   100% {
-    -webkit-transform: perspective(800px) scale(1) rotateX(0);
-            transform: perspective(800px) scale(1) rotateX(0);
+    transform: translateY(-100%);
   }
-}  */
+}  
 /* loading END  */
 
 /* loading1-6 START */
@@ -132,17 +101,13 @@ header {
   display: none; 
 }
   /* loading用 */
-
-  /* ブラウザ全画面 */
 .loader{
-  width: 100vw;
+  width: 100vw;/* ブラウザ全画面 */
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-  /* ブラウザ全画面 */
-
 h1.loader {
   text-align: center;
   text-transform: uppercase;

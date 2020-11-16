@@ -1,4 +1,3 @@
-
 //ページの読み込みが完了したらアニメーションを非表示
 // $(window).on('load',function(){
 //  $('.loader-wrap').fadeOut();
@@ -7,7 +6,9 @@
 
 //ページの読み込みが完了して、3秒後にアニメーションを非表示にする
 setTimeout(() =>{
-    $('.loader').fadeOut();
-    $('#container').fadeIn();
+    $('.img-wrap').fadeOut();
+    $('#top_container').fadeIn();
     $('header').fadeIn();
-},1300);
+    $('top_footer').fadeIn();
+
+},2000);
