@@ -1103,14 +1103,14 @@ footer {
   display: initial;
   font-size: 14px;
   font-weight: 700;
-  padding: 10px;
+  padding: 5px;
 }
 .sp_side_bar_inner{
   display: flex;
   justify-content: space-around;
   list-style: none;
   align-items: center;
-  margin: 6px auto 0;
+  margin: 0  auto ;
 }
 .item_2 a {
   display: flex;
@@ -1118,10 +1118,10 @@ footer {
   align-items: center;
 }
 .back_m {
-  padding-left: 8px;
+  padding-left: 12px;
 }
 .next_m {
-  padding-right: 8px;
+  padding-right: 12px;
 }
 .sp_saide_bar_hover {
   display: initial;
