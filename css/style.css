@@ -877,8 +877,8 @@ header {
   font-size: 19px;
   font-weight: 800;
   letter-spacing: 0.17em;
-  margin: 35px 0 25px 10px;
-  padding: 0.5rem 1rem;
+  margin: 35px 0 25px 11px;
+  padding: 0.5rem 0.9rem;
   border-left: 0.8px solid #071B07;
 }
 .works_name p {
@@ -893,7 +893,7 @@ header {
   font-weight: 500;
   letter-spacing: 0.15em;
   margin: 5px 0 0px 5px;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 0.5rem;
   border-left: 0.8px solid #071B07;
 }
 .works_img {
@@ -973,11 +973,11 @@ figcaption h3 {
   margin: 15px 2px 5px 2px;
   font-size: 19px;
   padding: 0;
-  padding-left: none;
+  padding-left: initial;
   /* border-left: 0.5px solid #071B07; */
   border-left: none;
   padding: 0.5rem 1rem;
-  line-height:1.8rem;
+  line-height:1rem;
   font-weight: 800;
 }
 .ex3 {
@@ -1041,7 +1041,7 @@ footer {
 }
 .button {
   position: fixed;
-  margin: 45px auto 15px;
+  margin: 50px auto 25px;
   display: block;
   width: 230px;
   height: 54px;
