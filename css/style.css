@@ -1118,10 +1118,13 @@ footer {
   align-items: center;
 }
 .back_m {
-  padding-left: 12px;
+  padding-left: 5px;
 }
 .next_m {
-  padding-right: 12px;
+  padding-right: 5px;
+}
+.top_m {
+  padding: 0 5px;
 }
 .sp_saide_bar_hover {
   display: initial;
