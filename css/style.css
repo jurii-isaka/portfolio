@@ -472,6 +472,7 @@ figcaption h3 {
   font-size:  13px;
   font-weight: 400;
   margin-left: 20px;
+  
 }
 .ex5 {
   margin-top: 50px;
@@ -969,23 +970,28 @@ figcaption h3 {
   display: initial;
 }
 .ex4 {
-  margin: 15px 2px 0 2px;
+  margin: 15px 2px 5px 2px;
   font-size: 17px;
   padding: 0;
   /* padding-left: 10px; */
   /* border-left: 0.5px solid #071B07; */
+  border-left: none;
   padding: 0.5rem 1rem;
   line-height:1.8rem;
   font-weight: 800;
+}
+.ex2 {
+  margin: 0px 2px 15px 2px;
+  font-size:  10px;
+  font-weight: 300;
+  line-height:1.1rem;
+  /* margin-left: 20px; */
 }
 .ex3 {
   font-size: 13px;
   margin: 12px 2px 15px 2px;
   font-weight: 100;
   line-height:1.1rem;
-}
-.ex2 {
-  display: none;
 }
 .ex5 {
   margin: 0px 2px 20px 2px;
