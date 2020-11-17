@@ -866,7 +866,7 @@ header {
 /* sp works start */
 .works {
   width: calc(100% - 30px);
-  margin-left: 0;
+  margin-left: 2px;
   display: block;
   justify-content: center;
   align-items: center;
@@ -891,7 +891,7 @@ header {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.15em;
-  margin: 5px 0 0px 7px;
+  margin: 5px 0 0px 5px;
   padding: 0.5rem 1rem;
   border-left: 0.8px solid #071B07;
 }
@@ -973,7 +973,7 @@ figcaption h3 {
   font-size: 17px;
   padding: 0;
   /* padding-left: 10px; */
-  border-left: 0.5px solid #071B07;
+  /* border-left: 0.5px solid #071B07; */
   padding: 0.5rem 1rem;
   line-height:1.8rem;
   font-weight: 800;
