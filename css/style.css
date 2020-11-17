@@ -970,7 +970,7 @@ figcaption h3 {
   display: initial;
 }
 .ex4 {
-  margin: 15px 2px 22px 2px;
+  margin: 15px 2px 18px 2px;
   font-size: 18px;
   padding: 0;
   padding-left: none;
@@ -982,9 +982,9 @@ figcaption h3 {
 }
 .ex3 {
   font-size: 12px;
-  margin: 10px 2px 8px 2px;
+  margin: 7px 2px 8px 2px;
   font-weight: 100;
-  line-height:1rem;
+  line-height:1.2rem;
 }
 .ex2 {
  display: none;
