@@ -970,8 +970,8 @@ figcaption h3 {
   display: initial;
 }
 .ex4 {
-  margin: 15px 2px 5px 2px;
-  font-size: 19px;
+  margin: 15px 2px 8px 2px;
+  font-size: 18px;
   padding: 0;
   padding-left: none;
   /* border-left: 0.5px solid #071B07; */
@@ -1041,7 +1041,7 @@ footer {
 }
 .button {
   position: fixed;
-  margin: 52px auto 42px;
+  margin: 30px auto 30px;
   display: block;
   width: 230px;
   height: 54px;
