@@ -761,7 +761,7 @@ header {
   margin: 0;
 }
 .global-nav ul li {
-  padding: 9px;
+  padding: 7px;
   }
 .nav_inner{
   height: 65px;
@@ -773,13 +773,12 @@ header {
 .log img {
   width: 28px;
   height: 38px;
-  /* margin-left: 3px; */
   justify-content: flex-start;
 }
 .nav-ul-arai li a {
   color:#071B07;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
   transition: opacity 0.1s;
 }
 .nav-ul-arai li a:hover {
