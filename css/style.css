@@ -298,7 +298,6 @@ header {
   margin:18px 0 -20px 985px;
   padding: 0.5rem 1rem;
 }
-
 .works_inner {
   width: 1120px;
   margin: 0px 10px 0 0;
@@ -844,7 +843,7 @@ header {
   align-items: center;
   margin: 10px;
 }
-.sp_works {
+.works_name {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.17em;
