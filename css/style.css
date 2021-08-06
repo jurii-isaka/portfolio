@@ -844,7 +844,7 @@ header {
   margin: 10px;
 }
 .works_name h2 {
- display: none;
+ display: none !important;
 }
 .works_inner {
   width: 100%;
