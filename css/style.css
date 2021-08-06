@@ -234,7 +234,8 @@ header {
   100% {
     opacity: 1;
   }
-}  /* ふわっと表示 */
+}/* ふわっと表示 */
+
 .top_name {
     text-align: left;
     margin: 65px 0 0px 870px;
@@ -252,6 +253,7 @@ header {
     text-align: center;
     margin-top: 5px;
   }
+
 /*top footer start  */
 .top_footer {
     margin: 0 auto;
@@ -276,6 +278,7 @@ header {
     opacity: 0.5;
   }
 /*top footer end  */
+
 .top_page{
   overflow: hidden;/* top page限定でスクロールしない指定 */
 }
@@ -292,12 +295,8 @@ header {
   font-size: 14px;
   letter-spacing: 0.17em;
   font-weight: 300;
-  margin:35px 0 -12px 925px;
+  margin:18px 0 -20px 985px;
   padding: 0.5rem 1rem;
-  /* border-left: 1px solid #071B07; */
-}
-.sp_works h2 {
-  display: none;
 }
 
 .works_inner {
@@ -363,23 +362,6 @@ header {
   background-color: #fefefe;
   width: 100%;
 }
-/* .works_footer ul li {
-  display: inline-flex;
-  justify-content: center; 
-}
-.works_footer img {
-  width: 31px;
-  margin: 0 auto 0px;
-  margin: 2px 8px;
-}
-.footer_hover  img {
-  transition: 0.5s;
-}
-.footer_hover  img:hover {
-  opacity: 0.5;
-} */
-/* works_footer end */
-/* works end */
 
 /* works_hover start */
 .work_hover {
@@ -491,12 +473,7 @@ figcaption h3 {
 .ex_picture img:nth-child(3),
 .ex_picture img:nth-child(4),
 .ex_picture img:nth-child(5),
-.ex_picture img:nth-child(6),
-.ex_picture img:nth-child(7),
-.ex_picture img:nth-child(8),
-.ex_picture img:nth-child(9),
-.ex_picture img:nth-child(10),
-.ex_picture img:nth-child(11) {
+.ex_picture img:nth-child(6) {
 -webkit-animation: example 0s ease 0s 1 forwards;
 animation: example 0.5s ease 0.5s 1 forwards;
 }
@@ -510,21 +487,13 @@ animation: example 0.5s ease 0.5s 1 forwards;
   opacity: 1;
 }
 }  /* ふわっと表示 */
-.m10  {
-  margin-top: -8px ;
-}
+
 .m11 {
   margin-top: 8px ;
 } 
 .m12 {
   margin-top: -13px ;
 } 
-.m8 {
-  margin-top: -6px ;
-} 
-/* .m9 {
-  margin-bottom: -230px ;
-}  */
 
 /*works 1-6 footer start  */
 .footer {
@@ -883,10 +852,6 @@ header {
   padding: 0.4rem 0.7rem;
   /* border-left: 0.8px solid #071B07; */
 }
-.works_name h2 {
-  display: none;
-}
-
 .works_inner {
   width: 100%;
   margin: 0 auto;
