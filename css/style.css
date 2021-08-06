@@ -843,13 +843,12 @@ header {
   align-items: center;
   margin: 10px;
 }
-.works_name {
+.works_name h2 {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.17em;
   margin: 15px 0 35px 10px;
   padding: 0.4rem 0.7rem;
-  /* border-left: 0.8px solid #071B07; */
 }
 .works_inner {
   width: 100%;
@@ -937,18 +936,18 @@ figcaption h3 {
   display: initial;
 }
 .ex4 {
-  margin: 12px 2px 18px 2px;
-  font-size: 18px;
+  margin: 12px 2px 16px 2px;
+  font-size: 16px;
   padding: 0;
   padding-left: none;
   border-left: none;
   /* padding: 0.5rem 1rem; */
   line-height:1.8rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 .ex3 {
   font-size: 12px;
-  margin: 7px 2px 10px 2px;
+  margin: 7px 2px 12px 2px;
   font-weight: 100;
   line-height:1.2rem;
 }
@@ -957,7 +956,7 @@ figcaption h3 {
 }
 .ex5 {
   margin: 4px 2px 22px 2px;
-  font-size: 15px;
+  font-size: 14px;
   line-height:1.5rem;
   font-weight: 300;
 }
