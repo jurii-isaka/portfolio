@@ -296,6 +296,10 @@ header {
   padding: 0.5rem 1rem;
   /* border-left: 1px solid #071B07; */
 }
+.sp_works h2 {
+  display: none;
+}
+
 .works_inner {
   width: 1120px;
   margin: 0px 10px 0 0;
@@ -871,21 +875,25 @@ header {
   align-items: center;
   margin: 10px;
 }
-.works_name h2 {
+.sp_works {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.17em;
-  margin: 15px 0 15px 10px;
+  margin: 15px 0 35px 10px;
   padding: 0.4rem 0.7rem;
   /* border-left: 0.8px solid #071B07; */
 }
+.works_name h2 {
+  display: none;
+}
+
 .works_inner {
   width: 100%;
   margin: 0 auto;
 }
 .works_inner h3 {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.15em;
   margin: 15px 0 5px 5px;
   padding: 0.3rem 0.5rem;
