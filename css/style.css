@@ -296,14 +296,6 @@ header {
   padding: 0.5rem 1rem;
   /* border-left: 1px solid #071B07; */
 }
-/* .works_name p {
-  font-size: 10px;
-  letter-spacing: 0.17em;
-  font-weight: 200;
-  line-height: 19px;
-  margin: 5px 0 0 17px;
-} */
-
 .works_inner {
   width: 1120px;
   margin: 0px 10px 0 0;
@@ -526,9 +518,10 @@ animation: example 0.5s ease 0.5s 1 forwards;
 .m8 {
   margin-top: -6px ;
 } 
-.m9 {
+/* .m9 {
   margin-bottom: -230px ;
-} 
+}  */
+
 /*works 1-6 footer start  */
 .footer {
   margin: 0  auto;
@@ -816,6 +809,9 @@ header {
 }
 .Drawer-close img {
   width: 25px;
+}
+.sns-spview {
+display: none;
 }
 /* sp global-nav end*/
 
