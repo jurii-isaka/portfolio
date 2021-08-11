@@ -289,13 +289,13 @@ header {
 .works {
   display: flex;
   justify-content: space-between;
-  margin:20px 0 0 270px;
+  margin:28px 0 0 270px;
 }
 .works_name h2 {
   font-size: 14px;
   letter-spacing: 0.17em;
   font-weight: 300;
-  margin:18px 0 -20px 985px;
+  margin:20px 0 -20px 990px;
   padding: 0.5rem 1rem;
 }
 .works_inner {
