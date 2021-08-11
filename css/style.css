@@ -844,7 +844,11 @@ header {
   margin: 10px;
 }
 .works_name h2 {
- display: none !important;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  margin: 15px 0 5px 5px;
+  padding: 0.3rem 0.5rem;
 }
 .works_inner {
   width: 100%;
