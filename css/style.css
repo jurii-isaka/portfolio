@@ -844,10 +844,10 @@ header {
   margin: 10px;
 }
 .works_name h2 {
-  font-size: 16px;
-  font-weight: 800;
+  font-size: 14px;
+  font-weight: 300;
   letter-spacing: 0.15em;
-  margin: 15px 0 5px 5px;
+  margin: 15px 0 10px 25px;
   padding: 0.3rem 0.5rem;
 }
 .works_inner {
