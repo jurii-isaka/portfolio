@@ -941,12 +941,12 @@ figcaption h3 {
   border-left: none;
   /* padding: 0.5rem 1rem; */
   line-height:1.8rem;
-  font-weight: 500;
+  font-weight: 800;
 }
 .ex3 {
   font-size: 12px;
   margin: 7px 2px 12px 2px;
-  font-weight: 100;
+  font-weight: 200;
   line-height:1.2rem;
 }
 .ex2 {
@@ -956,7 +956,7 @@ figcaption h3 {
   margin: 4px 2px 22px 2px;
   font-size: 14px;
   line-height:1.5rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 .ex_picture {
   margin: 10px;
