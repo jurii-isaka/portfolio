@@ -1004,7 +1004,7 @@ footer {
 }
 .button {
   position: fixed;
-  margin: 25px auto 35px;
+  margin: 25px auto 25px;
   display: block;
   width: 260px;
   height: 54px;
@@ -1066,8 +1066,8 @@ footer {
   display: initial;
   font-size: 14px;
   font-weight: 700;
-  padding: 8px;
-  margin: 0  auto ;
+  padding: 18px 8px 8px 8px;
+  margin: 0  auto;
 }
 .sp_side_bar_inner{
   display: flex;
