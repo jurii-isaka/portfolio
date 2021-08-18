@@ -945,7 +945,7 @@ figcaption h3 {
 }
 .ex3 {
   font-size: 12px;
-  margin: 7px 2px 12px 2px;
+  margin: 5px 2px 14px 2px;
   font-weight: 200;
   line-height:1.2rem;
 }
@@ -1066,7 +1066,7 @@ footer {
   display: initial;
   font-size: 14px;
   font-weight: 700;
-  padding: 25px 8px 8px 8px;
+  padding: 8px;
   margin: 0  auto;
 }
 .sp_side_bar_inner{
@@ -1074,6 +1074,7 @@ footer {
   justify-content: space-around;
   list-style: none;
   align-items: center;
+  margin-top: 15px;
 }
 .item_2 a {
   display: flex;
